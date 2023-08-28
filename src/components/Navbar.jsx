@@ -96,9 +96,12 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
             >
               {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
-              <a href={nav.link || `#${nav.id}`} target={nav.link ? "_blank" : undefined} rel={nav.link ? "noopener noreferrer" : undefined}>
-        {nav.title}
-      </a>
+              <a href={nav.link || `#${nav.id}`}
+                 target={nav.link ? "_blank" : undefined}
+                 rel={nav.link ? "noopener noreferrer" : undefined}
+              >
+                {nav.title}
+              </a>
 
             </li>
           ))}

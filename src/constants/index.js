@@ -59,7 +59,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: "./resume/Resume_Hiroshi_Obata.pdf"
+    link: "./public/Resume_Hiroshi_Obata.pdf"
     // link: "https://mywebsite-396611.uw.r.appspot.com/resume/Resume_Hiroshi_Obata.pdf"
   },
 ];
