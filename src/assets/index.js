@@ -1,4 +1,5 @@
-import logo from "./logo.png";
+// import logo from "./logo.png";
+import logo from "./face.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,10 +27,10 @@ import progummy from "./company/progummy.png";
 import jfe from "./company/jfe.png";
 import USC from "./university/USC.png";
 import tokyo from "./university/tokyo.png";
-import keio from "./university/keio.png";
+import keio from "./university/keio2.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import eventsearch from "./eventsearch.png";
+import swiftproject from "./swiftproject.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -60,7 +61,7 @@ export {
   USC,
   tokyo,
   keio,
-  carrent,
-  jobit,
+  eventsearch,
+  swiftproject,
   tripguide,
 };

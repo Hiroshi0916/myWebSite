@@ -21,8 +21,8 @@ import {
   USC,
   tokyo,
   keio,
-  carrent,
-  jobit,
+  eventsearch,
+  swiftproject,
   tripguide,
   threejs,
 } from "../assets";
@@ -60,16 +60,17 @@ export const navLinks = [
     id: "resume",
     title: "Resume",
     link: "./resume/Resume_Hiroshi_Obata.pdf"
+    // link: "https://mywebsite-396611.uw.r.appspot.com/resume/Resume_Hiroshi_Obata.pdf"
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Cloud Engineer",
     icon: mobile,
   },
   {
@@ -77,7 +78,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Network Engineer",
     icon: creator,
   },
 ];
@@ -198,33 +199,45 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Event Search",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, music, and sports events from various events, providing a ticket info and venue info with Map.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "BootStrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: eventsearch,
+    source_code_link: "https://github.com/Hiroshi0916/ticket-master-app",
   },
   {
-    name: "Job IT",
+    name: "Swift project",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
       {
@@ -236,16 +249,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: swiftproject,
+    source_code_link: "https://github.com/Hiroshi0916/ticket-swift-app",
   },
   {
-    name: "Trip Guide",
+    name: "File-Manipulator-Program",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
@@ -258,40 +271,37 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Hiroshi0916/File-Manipulator-Program",
   },
 ];
 
 const educations = [
   {
     title: "University of Southern California",
-    major_name: "Master of Computer Science / Los Angeles, CA",
+    major_name: "Master of Computer Science/ Los Angeles, CA",
     icon: USC,
     iconBg: "#383E56",
     date: "Aug 2022 - Present(Expected Graduate: Dec 2024)",
     points: [
-      "Grad School.",
     ],
   },
 
   {
     title: "The University of Tokyo",
-    major_name: "Progummy Inc./ Tokyo, Japan",
+    major_name: "Master of Information and Communication Engineering/ Tokyo, Japan",
     icon: tokyo,
     iconBg: "#383E56",
     date: "Apr 2007 - Mar 2009",
     points: [
-      "Grad School.",
     ],
   },
   {
     title: "Keio University",
-    major_name: "Progummy Inc./ Tokyo, Japan",
+    major_name: "Bachelor of Engineering, Electronics and Electrical Engineering/ Tokyo, Japan",
     icon: keio,
     iconBg: "#383E56",
     date: "Apr 2007 - Mar 2009",
     points: [
-      "Grad School.",
     ],
   },
 ]

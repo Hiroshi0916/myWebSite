@@ -62,7 +62,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
           <p className="text-white text-[30px] font-bold cursor-pointer flex ">
             Hiroshi &nbsp;
           </p>
@@ -72,7 +72,8 @@ const Navbar = () => {
           href="https://www.linkedin.com/in/hiroshi-obata-usc/"
           target="_blank"
           rel="noopener noreferrer"
-          className="lg:block hidden mr-8"
+          // className="lg:block hidden mr-8"
+          className="custom:block hidden mr-8"
         >
           <FaLinkedin size={35} className="text-white hover:text-[#0A66C2]" />
         </a>
@@ -81,7 +82,8 @@ const Navbar = () => {
           href="https://github.com/Hiroshi0916"
           target="_blank"
           rel="noopener noreferrer"
-          className="lg:block hidden mr-40"
+          // className="lg:block hidden mr-40"
+          className="custom:block hidden mr-8"
         >
           <FaGithub size={35} className="text-white hover:text-gray-400" />
         </a>
