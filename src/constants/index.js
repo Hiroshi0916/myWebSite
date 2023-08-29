@@ -1,4 +1,4 @@
-import resumePdf from '../assets/resume/Resume_Hiroshi_Obata.pdf';
+import resumePdf from '../assets/Resume_Hiroshi_Obata.pdf';
 import {
   mobile,
   backend,
