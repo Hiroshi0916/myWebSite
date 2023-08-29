@@ -1,3 +1,4 @@
+import resumePdf from '../assets/resume/Resume_Hiroshi_Obata.pdf';
 import {
   mobile,
   backend,
@@ -59,7 +60,8 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: "https://hiroshi0916.github.io/myWebSite/resume/Resume_Hiroshi_Obata.pdf"
+    link: resumePdf,
+    // link: "https://hiroshi0916.github.io/myWebSite/resume/Resume_Hiroshi_Obata.pdf"
     // link: "https://mywebsite-396611.uw.r.appspot.com/resume/Resume_Hiroshi_Obata.pdf"
   },
 ];
